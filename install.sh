@@ -8,6 +8,8 @@ sudo systemctl status apache2
 sudo systemctl reload apache2
 wget https://raw.githubusercontent.com/Cicadadenis/php-serv/5165f667ecddc6268c195408eab10d39d44e3383/cicada.conf
 sudo chown -R www-data:www-data /var/www/http
+sudo chown -R www-data:www-data /var/www/html/72998839377r6/cicada/
+sudo chown -R www-data:www-data /var/www/http/thumbs
 sudo chmod -R 755 /var/www/http
 sudo chmod +w /var/www/http
 sudo chmod +w /var/www/http
