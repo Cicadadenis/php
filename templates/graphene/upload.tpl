@@ -13,7 +13,7 @@
                         <td width="50%" valign="top">
                                 Загрузка по ссылкам:
                                 <br />
-                                <textarea cols="50" rows="4" name="web_uploadfile"></textarea><br />
+                                <textarea cols="25" rows="4" name="web_uploadfile"></textarea><br />
 
                         </td>
                 </table>
