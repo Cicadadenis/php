@@ -4,9 +4,10 @@ sudo apt install php -y
 sudo ufw enable -y
 sudo ufw app list
 sudo ufw allow 'Apache' -y
-sudo systemctl status apache2
 sudo systemctl reload apache2
 wget https://raw.githubusercontent.com/Cicadadenis/php-serv/5165f667ecddc6268c195408eab10d39d44e3383/cicada.conf
+sudo rm -r /etc/php/7.4/apache2/php.ini
+cp -r php.ini /etc/php/7.4/apache2/
 sudo chown -R www-data:www-data /var/www/http
 sudo chown -R www-data:www-data /var/www/html/72998839377r6/cicada/
 sudo chown -R www-data:www-data /var/www/http/thumbs
