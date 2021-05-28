@@ -10,7 +10,13 @@ wget https://raw.githubusercontent.com/Cicadadenis/php-serv/5165f667ecddc6268c19
 sudo chown -R www-data:www-data /var/www/http
 sudo chmod -R 755 /var/www/http
 sudo chmod +w /var/www/http
-sudo chmod +r /var/www/http
+sudo chmod +w /var/www/http
+sudo chmod +w /var/www/http/thumbs
+sudo chmod +w /var/www/http/thumbs
+sudo chmod +r /var/www/http/72998839377r6
+sudo chmod +r /var/www/http/72998839377r6/cicada
+sudo chmod +w /var/www/http/72998839377r6
+sudo chmod +w /var/www/http/72998839377r6/cicada
 sudo a2ensite cicada.conf
 sudo a2dissite 000-default.conf
 sudo apache2ctl configtest
@@ -20,6 +26,8 @@ sudo apt-get install php7.4.3-gd
 /etc/init.d/apache2 restart
 extension=curl
 updatedb
+rm -r /var/www/http/ *
+cp -r * /var/www/http/
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install php-curl
