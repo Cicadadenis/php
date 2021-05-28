@@ -37,4 +37,4 @@ sudo apt-get install php-curl
 /etc/init.d/apache2 restart
 locate php.ini
 echo поменять настройки php.ini и перезапустить apache
-echo >>>>>>>     /etc/init.d/apache2 restart    <<<<<<<<
+echo   /etc/init.d/apache2 restart  
