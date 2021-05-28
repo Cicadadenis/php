@@ -1,5 +1,6 @@
 *{margin:0;padding:0}
-body{background:#2E3436;font:12px Verdana,Arial,Helvetica,sans-serif;color:#BABDB6;height:100%}
+
+body { background: #c7b39b url(/fon/2.jpg) no-repeat; -moz-background-size: 50%; /* Firefox 3.6+ */ -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */ -o-background-size: 100%; /* Opera 9.6+ */ background-size: 100%; /* Современные браузеры */background-size: cover; background-position: center center; background-color: #464646; }
 html{height:100%}
 a,a:hover{text-decoration:none;color:#fff}
 #wrap{margin:0 auto;width:780px;min-height:100%;height:auto !important;height:100%}
