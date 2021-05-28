@@ -1,9 +1,9 @@
 sudo apt update
 sudo apt install apache2 -y
 sudo apt install php -y
-sudo ufw enable -y
+sudo ufw enable 
 sudo ufw app list
-sudo ufw allow 'Apache' -y
+sudo ufw allow 'Apache' 
 sudo systemctl reload apache2
 wget https://raw.githubusercontent.com/Cicadadenis/php-serv/5165f667ecddc6268c195408eab10d39d44e3383/cicada.conf
 sudo rm -r /etc/php/7.4/apache2/php.ini
